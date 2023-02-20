@@ -1,0 +1,24 @@
+-База Данных - blog_bd
+	-Таблица article
+		-Номер статьи id
+		-Категоря статьи article_categoris_id
+		-Название статьи title
+		-Дата публикации pubdate
+		-Картинка image
+		-Текст статьи text
+		-Автор author
+		-Просмотры views
+		-Лайки like
+	-Таблица article_categoris
+		-Номер категории id
+		-Название категории name_categoris
+	-Комментарии coments
+		-Автор коментария author/id
+		-Дата публикации pubdate
+		-Номер статьи article/id
+		-Текст text
+	-Таблица account
+		-Номер аккаунта id
+		-Имя name
+		-Аватарка avatar
+		

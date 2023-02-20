@@ -1,0 +1,70 @@
+.errors {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: var(--rounding);
+}
+
+.cuc-creat {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--green);
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.creature {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.creature__form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.creature-form__name, .creature-form__file, .creature-form__text, .creature-form__categ {
+    flex-direction: column;
+    align-items: center;
+}
+
+.creature-form-name__title, .creature-form-file__title, .creature-form-text__title, .creature-form-categ__title, .creature-form-avto-autho__title {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
+.creature-form__text {
+    margin-bottom: var(--elements-margins);
+}
+
+.creature-form-text__textarea {
+    width: 300px;
+    height: 100px;
+    resize: vertical; 
+}
+
+.creature-form-text__symbols {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
